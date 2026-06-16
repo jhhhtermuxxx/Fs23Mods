@@ -14,7 +14,7 @@ def carregar_config():
         config_inicial = {
             "manutencao_ativa": False,
             "aviso_topo": "🚜 Novas modificações adicionadas hoje! Aproveita os downloads diretos.",
-            "mostrar_aviso": True
+            "mostrar_aviso": False
         }
         salvar_config(config_inicial)
         return config_inicial
